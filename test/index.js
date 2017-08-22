@@ -22,3 +22,5 @@ test("Can globalify stuff", function (assert) {
 
     assert.end()
 })
+
+require("./test-get");
