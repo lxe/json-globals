@@ -10,7 +10,7 @@ function JSONGlobals(hash, value) {
     }
 
     var payload = '<script id="json-globals" type="application/json">';
-    payload += serializeJavascript(hash);
+    payload += JSON.stringify(hash);
     payload += '</script>';
 
     return payload
