@@ -1,8 +1,7 @@
 {
   "name": "safe-json-globals",
   "version": "3.0.0",
-  "description":
-    "Safely embed serialized javascript or JSON in a page as temporary global data",
+  "description": "Safely embed serialized javascript or JSON in a page as temporary global data",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
   "repository": "git://github.com/lxe/safe-json-globals.git",
