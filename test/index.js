@@ -11,12 +11,14 @@ test("Can globalify stuff", function (assert) {
     var html = JSONGlobals({
         plain: { name: "bob" },
         regex: /foo/,
-        malicious: '</script>'
+        malicious: '</script>',
+        date: new Date(1517857871957)
     })
 
     assert.equal(html,
       '<script id="json-globals" type="application/json">' +
-      '{"plain":{"name":"bob"},"regex":/foo/,"malicious":"\\u003C\\u002Fscript\\u003E"}' +
+      '{"plain":{"name":"bob"},"regex":/foo/,"malicious":"\\u003C\\u002Fscript\\u003E",' + 
+      '"date":"2018-02-05T19:11:11.957Z"}' +
       '</script>'
     );
 
