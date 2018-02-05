@@ -1,6 +1,6 @@
 {
   "name": "safe-json-globals",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Safely embed serialized javascript or JSON in a page as temporary global data",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
